@@ -115,6 +115,31 @@ public class MenuFrame extends JFrame {
         menuManager.addItem(new Meal("Veggie Bowl", 8.49, 430, "Rice, beans, veggies", "Bowl"));
         menuManager.addItem(new Snack("Chips", 1.99, 150, "Sea salt chips", "CrunchCo"));
         menuManager.addItem(new Snack("Granola Bar", 1.49, 190, "Oats and honey", "SunnyBites"));
+        menuManager.addItem(new Snack("Tuna Sushi", 8.99, 255, "Fresh Tuna with Ginger", "Sushi"));
+        menuManager.addItem(new Drink("Cappuccino", 4.29, 120, "Espresso with steamed milk foam", "Medium"));
+        menuManager.addItem(new Drink("Green Tea", 2.79, 0, "Light and refreshing herbal tea", "Large"));
+        menuManager.addItem(new Drink("Mocha", 4.99, 210, "Chocolate-infused espresso with milk", "Medium"));
+        menuManager.addItem(new Drink("Lemonade", 3.29, 140, "House-made sweet lemonade", "Large"));
+        menuManager.addItem(new Drink("Matcha Latte", 5.49, 180, "Creamy matcha green tea", "Medium"));
+        menuManager.addItem(new Meal("Beef Tacos", 9.49, 610, "Two tacos with seasoned beef and salsa", "Taco"));
+        menuManager.addItem(new Meal("Caesar Salad", 8.99, 380, "Romaine, croutons, parmesan, dressing", "Salad"));
+        menuManager.addItem(new Meal("BBQ Burger", 10.99, 720, "Beef patty with BBQ sauce and onion rings", "Burger"));
+        menuManager.addItem(new Meal("Pasta Primavera", 9.99, 560, "Pasta with seasonal vegetables and olive oil", "Pasta"));
+        menuManager.addItem(new Meal("Fish & Chips", 11.49, 800, "Battered fish with fries", "Entree"));
+        menuManager.addItem(new Snack("Apple Slices", 1.79, 80, "Fresh-cut apple slices", "FreshFruit"));
+        menuManager.addItem(new Snack("Yogurt Parfait", 3.99, 220, "Granola, yogurt, and berries", "SweetTreat"));
+        menuManager.addItem(new Snack("Pretzel Bites", 2.49, 170, "Soft pretzel bites with cheese dip", "SnackCo"));
+        menuManager.addItem(new Snack("Dark Chocolate", 1.29, 160, "Rich dark chocolate square", "ChocoLux"));
+        menuManager.addItem(new Snack("Edamame", 3.49, 190, "Steamed soybeans with sea salt", "AsianBites"));
+
+
+        Java restaurant menu management system tutorial
+
+
+
+
+
+
         
     }
 
