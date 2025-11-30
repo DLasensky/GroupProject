@@ -294,8 +294,19 @@ public class MenuFrame extends JFrame {
     	removeBtn.addActionListener(e->{
     		String selected = (String) dropdown.getSelectedItem();
     		if(selected != null) {
+    			//remove item from UI list
     			listModel.removeElement(selected);
-    			menuManager.getAllItem().removeIf(i->i.displayInfo().equals(selected));
+    			//remove item from MenuManager by calling removeITem()
+    			MenuItem toRemove = null;
+    			for(MenuItem item:menuManager.getAllItems()) {
+    				if(item.displayInfo().equals(selected)) {
+    					toRemove = item;
+    					break;
+    				}
+    			}
+    			if(toRemove!=null) {
+    			menuManager.removeItem(toRemove);
+    			}
     		}
     		dialog.dispose();
     	});

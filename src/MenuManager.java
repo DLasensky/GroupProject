@@ -38,4 +38,9 @@ public class MenuManager {
         return result;
         
     }
+    
+    //remove item permanently from list when selected by Remove Item panel.
+    public void removeItem(MenuItem item) {
+    	items.remove(item);
+    }
 }
